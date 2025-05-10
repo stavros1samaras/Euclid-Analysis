@@ -1,0 +1,154 @@
+article {
+    margin-top: 0px;
+}
+
+#analyzeSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 70%;
+}
+
+.companyNamesContainer {
+    margin-top: 2%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(97, 126, 241);
+    border-top: 2px solid rgb(97, 126, 241);
+    background-color: white;
+}
+
+.companyNames1 {
+
+    font-family: "Bodoni Moda SC", sans-serif;
+    -webkit-text-stroke: 1px rgb(97, 126, 241);
+    font-size: 2.3rem;
+    color: rgb(255, 255, 255);
+}
+
+.companyNames2 {
+    font-family: "Bodoni Moda SC", sans-serif;
+    -webkit-text-stroke: 1px rgb(113, 139, 247);
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+#containerSection1 {
+    width: 60%;
+    height: 100%;
+}
+
+#containerSection2 {
+    width: 35%;
+    height: 100%;
+}
+
+#slogan1 {
+    color: rgb(12, 150, 242);
+    font-size: 3rem;
+    margin-bottom: 5%;
+    margin-top: 10px;
+}
+
+#slogan2 {
+    color: rgb(12, 150, 242);
+    font-size: 3rem;
+    margin-bottom: 0%;
+    margin-top: 10px;
+}
+
+#bullets {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.intro {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0px 0px 5%;
+    /*πανω δεξια κατω αριστερα*/
+    font-size: 2rem;
+    color: rgb(12, 150, 242);
+}
+
+#stockImage {
+    width: 75%;
+    height: 350px;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    border-radius: 20px;
+}
+
+#instructions {
+    width: 90%;
+    color: rgb(12, 150, 242);
+}
+
+#startAnalysis {
+    display: block;
+    /*background: radial-gradient(circle, rgb(12, 150, 242) 50%, white 100%);*/
+    background-color: rgb(12, 150, 242);
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px 20px 20px 5px;
+
+}
+
+.titles1 {
+    font-size: 2rem;
+    color: rgb(12, 150, 242);
+}
+
+.titles2 {
+    font-size: 1.5rem;
+    color: rgb(12, 150, 242);
+}
+
+.information {
+    color: rgb(12, 150, 242);
+    font-size: 1.5rem;
+}
+
+#WhoWeAreCont {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.names {
+    width: 50%;
+    text-align: center;
+
+    font-size: 2rem;
+    color: rgb(12, 150, 242);
+}
+
+
+#education {
+    width: 100%;
+    text-align: center;
+
+    font-size: 4rem;
+    font-family: "Caveat", cursive;
+    color: rgb(94, 40, 245);
+    position: relative;
+    top: 50px;
+}
+
+footer {
+    color: white;
+    background-color: rgb(12, 150, 242);
+    margin-bottom: 0px;
+    border-start-end-radius: 20px;
+    border-start-start-radius: 20px;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-top: 5%;
+}
